@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.luna {
+    color: #fadef4;
+}
+
+body {
+    margin: 0;
+    background: #0d0d0f;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+.divider {
+    height: 1.5px;
+    background: #333;
+    margin: 0 8px;
+}
+
+.project {
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.projdesc {
+    font-size: 17px;
+    margin-left: 15px;
+    color:#666;
+}
+
+.list {
+    margin-left: 25px;
+}
+
+div {
+    color: #888;
+}
+
+.hero {
+    padding: 45px 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 45px;
+    padding: 25px 25px;
+}
+
+.buttons a {
+    color: #878787;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    color: #f5bfea;
+}
+
+.hero h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #eeeeee;
+}
+
+.hero p {
+    color: #888;
+    font-size: 18px;
+}
+
+.hero i {
+    color: darkgray;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #878787;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f5bfea;
+}
+
+nav a.active {
+    color: #f5bfea;
+}
+
+.site {
+    max-width: 1100px;
+    margin: 30px auto;
+
+    border: 1px solid #333;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
